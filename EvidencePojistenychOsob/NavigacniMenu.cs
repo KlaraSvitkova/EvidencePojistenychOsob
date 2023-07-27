@@ -134,7 +134,9 @@ namespace EvidencePojistenychOsob
             } while (volbaHlavnihoMenu != '4');
 
         }
-
+        /// <summary>
+        /// Zkrácení výpisu do programu pro výpis do konzole
+        /// </summary>
         public void Menu()
         {
             VytejteVMenu();
