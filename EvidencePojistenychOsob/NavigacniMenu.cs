@@ -125,8 +125,6 @@ namespace EvidencePojistenychOsob
                                 VolbaAkceZMenu();
                                 break;
 
-
-
                         }
                         break;
 

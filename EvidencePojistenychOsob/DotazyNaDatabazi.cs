@@ -107,15 +107,15 @@ namespace EvidencePojistenychOsob
                                             orderby o.Jmeno, o.Prijmeni
                                             select o;
 
-            Console.WriteLine("\n\t --VYHLEDÁVÁNÍ OBYVATEL PODLE JMÉNA A PŘÍJMENÍ-- ");
-            Console.WriteLine("Zadejte jméno obyvatele:");
+            Console.WriteLine("\n\t --VYHLEDÁVÁNÍ POJIŠTĚNÉ OSOBY PODLE JMÉNA A PŘÍJMENÍ-- ");
+            Console.WriteLine("Zadejte jméno pojištěné osoby:");
             hledaneJmeno = Console.ReadLine().Trim().ToLower();
             while (string.IsNullOrWhiteSpace(hledaneJmeno))
             {
                 PomocnaTrida.PrazdnyRetezec();
                 hledaneJmeno = Console.ReadLine().Trim().ToLower();
             }
-            Console.WriteLine("Zadejte příjmení obyvatele");
+            Console.WriteLine("Zadejte příjmení pojištěné osoby:");
             hledanePrijmeni = Console.ReadLine().Trim().ToLower();
             while (string.IsNullOrWhiteSpace(hledanePrijmeni))
             {
